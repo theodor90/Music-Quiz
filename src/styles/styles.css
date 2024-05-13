@@ -14,16 +14,46 @@ body {
 }*/
 
 .center {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+
 }
 
 .bottom-buttons {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    align-items: center;
+}
+
+.button-left {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.button-right {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .button {
