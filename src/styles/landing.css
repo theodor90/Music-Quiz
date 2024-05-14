@@ -1,14 +1,15 @@
+
 .landing-img {
     width: 550px;
     height: 100%;
     transform: rotate(-45deg);
-    background-size: cover;
+    background-size: contain;
 
 }
 
 .landing-layout {
-    height: 1200px;
-    max-height: 100%;
+    height: 870px;
+    
     background-image: url("../images/bg-landing.png");
     background-size: cover;
     
