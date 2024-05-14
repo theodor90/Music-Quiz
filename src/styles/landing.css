@@ -1,6 +1,7 @@
 .landing-img {
     width: 550px;
     height: 100%;
+    transform: rotate(-45deg);
     background-size: cover;
 
 }
@@ -8,4 +9,18 @@
 .landing-layout {
     height: 1200px;
     max-height: 100%;
+    background-image: url("../images/bg-landing.png");
+    background-size: cover;
+    
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
