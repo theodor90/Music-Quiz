@@ -8,17 +8,17 @@ function Modal() {
       <Popup trigger=
         {<button>Play</button>} 
         modal nested>
-				{ close => (
-					<div className="modal">
-						<button className="close" onClick={close}>
-							&times;
-						</button>
-         		<div className="content">
-							<button>Single Player</button>
-         			<button>Multiplayer</button>
-						</div>
-					</div>
-				)}
+		{ close => (
+			<div className="modal">
+				<button className="close" onClick={close}>
+					&times;
+				</button>
+         			<div className="content">
+					<button>Single Player</button>
+         				<button>Multiplayer</button>
+				</div>
+			</div>
+		)}
       </Popup>
   )
 }
