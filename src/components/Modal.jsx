@@ -13,10 +13,10 @@ function Modal() {
 				<button className="close" onClick={close}>
 					&times;
 				</button>
-         			<div className="content">
-					<button>Single Player</button>
-         				<button>Multiplayer</button>
-				</div>
+        <div className="content">
+				  <button>Single Player</button>
+          <button>Multiplayer</button>
+        </div>
 			</div>
 		)}
       </Popup>
