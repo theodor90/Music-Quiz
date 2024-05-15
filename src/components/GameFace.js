@@ -7,7 +7,8 @@ const GameFace = () => {
   const [quizQuestions, setQuizQuestions] = useState(Database);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   let [score, setScore] = useState(0);
-
+  const [showButton, setShowButton] = useState(false);
+  
   const q1 = quizQuestions[currentQuestionIndex];
 
   const correctAnswer = q1.songName;
@@ -33,8 +34,6 @@ const GameFace = () => {
       console.log("End of questions!");
     }
   }
-
-  const [showButton, setShowButton] = useState(false);
 
   return (
     <div id="gamePage">
