@@ -1,8 +1,9 @@
 import React from 'react';
 
+
 const AnswerOption = ({ text }) => {
   return (
-    <button className="answer-option">{text}</button>
+    <button className="btn btn-secondary">{text}</button>
   );
 };
 
