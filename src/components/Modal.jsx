@@ -1,9 +1,8 @@
 import React from "react";
 import Popup from "reactjs-popup";
 import "./Modal.css";
-import { Link } from "react-router-dom";
 
-function Modal() {
+function Modal(page) {
   return (
     <Popup
       trigger={
@@ -18,10 +17,7 @@ function Modal() {
             &times;
           </button>
           <div className="modal-content">
-            <Link to="/gamepage">
-              <button className="btn btn-secondary">Single Player</button>
-            </Link>
-            <button className="btn btn-secondary" disabled>Multiplayer</button>
+            <page.content />
           </div>
         </div>
       )}
