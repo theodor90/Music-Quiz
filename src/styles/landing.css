@@ -84,6 +84,16 @@
     color: var(--secondary);
 }
 
+.btn-secondary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.btn-secondary:disabled:hover {
+    background-color: var(--secondary);
+    color: var(--black);
+}
+
 .btn-black {
     background-color: var(--black);
     color: var(--secondary);
