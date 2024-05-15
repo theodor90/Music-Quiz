@@ -10,6 +10,8 @@ const GameFace = () => {
 
   const correctAnswer = q1.songName;
 
+// MAKE IT SO THAT THE RIGHT ANSWER TURNS GREEN, OTHERS RED. Add a "Next question" button after an answer has been clicked.
+
   function checkAnswer(event) {
     if (event.target.id === correctAnswer) {
       console.log("Right answer!");
@@ -17,6 +19,8 @@ const GameFace = () => {
     } else {
       console.log("Wrong answer!");
     }
+
+    // Takes the user to the next question
     const nextQuestionIndex = currentQuestionIndex + 1;
     if (nextQuestionIndex < quizQuestions.length) {
       setCurrentQuestionIndex(nextQuestionIndex);
