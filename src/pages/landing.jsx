@@ -1,7 +1,7 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import { motion } from 'framer-motion'
 import Guitar from '../images/electric-guitar.png'
+import Modal from '../components/Modal';
 import '../styles/landing.css'
 import '../styles/styles.css';
 
@@ -12,7 +12,7 @@ function LandingPage() {
             <div className="landing-layout">
                  <button className="btn button-top-left btn-secondary">Profile</button>
                  <button className="btn button-buttom-left btn-secondary">Highscore</button>
-                  <button className="btn button-center btn-secondary">Play</button>
+                  <Modal />
                   <button className="btn button-bottom-right btn-secondary">How to play</button> 
                 <motion.div className=""
                     initial={{ x: '100vw' }} // Initial position of the image (off-screen to the right)

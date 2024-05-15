@@ -6,7 +6,7 @@ import './Modal.css';
 function Modal() {
     return (
         <Popup trigger=
-            {<button>Play</button>} 
+            {<button className="btn button-center btn-secondary">Play</button>} 
             modal nested>
             { close => (
                 <div className="modal">
