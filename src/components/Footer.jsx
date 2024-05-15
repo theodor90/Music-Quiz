@@ -20,6 +20,9 @@ export default function Footer() {
               <li>
                 <a href='https://github.com/al-swe' target='_blank'>Alan <i className="fa-brands fa-github"></i></a>
               </li>
+              <li>
+              <a href='https://github.com/SaadSabah' target='_blank'>Alan <i className="fa-brands fa-github"></i></a>
+              </li>
             </ul>
           </div>
           <div className="footer-right">
