@@ -3,26 +3,26 @@ import React from 'react'
 export default function Footer() {
   return (
     <footer>
-        <div class="footer-content">
-          <div class="footer-left">
+        <div className="footer-content">
+          <div className="footer-left">
             <h1>Quiz Namn</h1>
             <h3>Developed by</h3>
             <ul>
               <li>
-                <a href="">Theo <i class="fa-brands fa-github"></i></a>
+                <a href='https://github.com/theodor90' target='_blank'>Theo <i className="fa-brands fa-github"></i></a>
               </li>
               <li>
-                <a href="">Mattias <i class="fa-brands fa-github"></i></a>
+                <a href='https://github.com/mattiasvlex' target='_blank'>Mattias <i className="fa-brands fa-github"></i></a>
               </li>
               <li>
-                <a href="">David <i class="fa-brands fa-github"></i></a>
+                <a href='https://github.com/DavidR12344' target='_blank'>David <i className="fa-brands fa-github"></i></a>
               </li>
               <li>
-                <a href="">Alan <i class="fa-brands fa-github"></i></a>
+                <a href='https://github.com/al-swe' target='_blank'>Alan <i className="fa-brands fa-github"></i></a>
               </li>
             </ul>
           </div>
-          <div class="footer-right">
+          <div className="footer-right">
             <h3>
               <a href="">How to play</a>
             </h3>
@@ -31,7 +31,7 @@ export default function Footer() {
             </h3>
           </div>
         </div>
-        <div class="copy">
+        <div className="copy">
           <small>Copyright &copy; 2024</small>
         </div>
       </footer>
