@@ -13,15 +13,15 @@ function Modal() {
       nested
     >
       {(close) => (
-        <div className="modal">
-          <button className="close" onClick={close}>
+        <div className="modal-container">
+          <button className="btn-close" onClick={close}>
             &times;
           </button>
-          <div className="content">
+          <div className="modal-content">
             <Link to="/gamepage">
-              <button>Single Player</button>
+              <button className="btn btn-secondary">Single Player</button>
             </Link>
-            <button disabled>Multiplayer</button>
+            <button className="btn btn-secondary" disabled>Multiplayer</button>
           </div>
         </div>
       )}
