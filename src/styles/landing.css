@@ -8,11 +8,9 @@
 }
 
 .landing-layout {
-    height: 870px;
-    
+    height: 100vh;
     background-image: url("../images/bg-landing.png");
-    background-size: cover;
-    
+    background-size: cover;  
 }
 
 
