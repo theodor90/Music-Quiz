@@ -1,9 +1,8 @@
 import React from "react";
 import Popup from "reactjs-popup";
 import "./Modal.css";
-import { Link } from "react-router-dom";
 
-function Modal() {
+function HowToPlay() {
   return (
     <Popup
       trigger={
@@ -18,10 +17,13 @@ function Modal() {
             &times;
           </button>
           <div className="content">
-            <Link to="/gamepage">
-              <button>Single Player</button>
-            </Link>
-            <button disabled>Multiplayer</button>
+            <h1>How to play</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+              reiciendis! Quo id expedita sequi quos cupiditate alias in
+              voluptatum provident reprehenderit repudiandae nobis aperiam
+              culpa, velit libero dolore. Ipsam, quod?
+            </p>
           </div>
         </div>
       )}
@@ -29,4 +31,4 @@ function Modal() {
   );
 }
 
-export default Modal;
+export default HowToPlay;
