@@ -1,4 +1,4 @@
-.modal-container {
+.gamemode-container {
   padding: 4rem;
   border-radius: 0.3rem;
   background: rgba(255, 255, 255, 0.24);
@@ -22,13 +22,13 @@
   border: 0.06rem solid var(--black);
 }
  
-.modal-content {
+.gamemode-content {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
 }
  
-.content h3 {
+.gamemode-content h3 {
   text-align: center;
   margin-top: 0;
 }

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Database from "../database.json";
+import GameEnd from '../components/GameEnd';
 import "./GameFace.css";
 
 const GameFace = () => {
@@ -28,10 +29,12 @@ const GameFace = () => {
     if (nextQuestionIndex < quizQuestions.length) {
       setCurrentQuestionIndex(nextQuestionIndex);
     } else {
-      // Add "Endgame.jsx" here
+      setShowButton(true);
       console.log("End of questions!");
     }
   }
+
+  const [showButton, setShowButton] = useState(false);
 
   return (
     <div id="gamePage">
@@ -43,8 +46,8 @@ const GameFace = () => {
           {answer}
         </button>
       ))}
+        <GameEnd value={score} show={showButton}/>
       </div>
-      
     </div>
   );
 };
