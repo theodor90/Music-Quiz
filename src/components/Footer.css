@@ -1,0 +1,41 @@
+footer {
+    padding: 2rem;
+    width: 100vw;
+    background-color: var(--black);
+    color: var(--white);
+  }
+  
+  footer h1 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  footer ul {
+    list-style-type: none;
+  }
+  
+  footer a {
+    color: var(--white);
+    text-decoration: none;
+    transition: ease 0.5s;
+  }
+  
+  footer a:hover {
+    color: var(--secondary);
+  }
+  
+  .copy {
+    text-align: center;
+    margin-top: 1rem;
+  }
