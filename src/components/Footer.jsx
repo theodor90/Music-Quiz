@@ -1,4 +1,7 @@
 import React from 'react'
+import './css/Footer.css'
+import { FaGithub } from "react-icons/fa";
+
 
 export default function Footer() {
   return (
@@ -9,19 +12,19 @@ export default function Footer() {
             <h3>Developed by</h3>
             <ul>
               <li>
-                <a href='https://github.com/theodor90' target='_blank'>Theo <i className="fa-brands fa-github"></i></a>
+                <a href='https://github.com/theodor90' target='_blank'>Theo <FaGithub className='fa-brands'/></a>
               </li>
               <li>
-                <a href='https://github.com/mattiasvlex' target='_blank'>Mattias <i className="fa-brands fa-github"></i></a>
+                <a href='https://github.com/mattiasvlex' target='_blank'>Mattias <FaGithub className='fa-brands'/></a>
               </li>
               <li>
-                <a href='https://github.com/DavidR12344' target='_blank'>David <i className="fa-brands fa-github"></i></a>
+                <a href='https://github.com/DavidR12344' target='_blank'>David <FaGithub className='fa-brands'/></a>
               </li>
               <li>
-                <a href='https://github.com/al-swe' target='_blank'>Alan <i className="fa-brands fa-github"></i></a>
+                <a href='https://github.com/al-swe' target='_blank'>Alan <FaGithub className='fa-brands'/></a>
               </li>
               <li>
-              <a href='https://github.com/SaadSabah' target='_blank'>Alan <i className="fa-brands fa-github"></i></a>
+              <a href='https://github.com/SaadSabah' target='_blank'>Saad <FaGithub className='fa-brands'/></a>
               </li>
             </ul>
           </div>
