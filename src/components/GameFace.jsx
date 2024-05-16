@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Database from "../database.json";
 import "./GameFace.css";
 import ReactPlayer from "react-player";
+import GameEnd from "./GameEnd";
 
 const GameFace = () => {
   const nextBtn = document.getElementById("nextBtn");
@@ -10,6 +11,7 @@ const GameFace = () => {
   let [score, setScore] = useState(0);
   let [answerDisable, setAnswerDisable] = useState(false);
   let [nextBtnDisabled, setNextBtnDisabled] = useState(true);
+  const [showButton, setShowButton] = useState(false);
 
   const q1 = quizQuestions[currentQuestionIndex];
 
@@ -83,6 +85,7 @@ const GameFace = () => {
     } else {
       // Add "Endgame.jsx" here
       console.log("End of questions!");
+      setShowButton(true);
     }
     setNextBtnDisabled(true);
     setAnswerDisable(false);
@@ -90,7 +93,7 @@ const GameFace = () => {
 
   return (
     <div id="gamePage">
-      <p>Score: {score}</p>
+      <h3>Score: {score}</h3>
       <h3>What song is this?</h3>
       <ReactPlayer 
       className="react-player"
@@ -120,6 +123,7 @@ const GameFace = () => {
         >
           Next Question
         </button>
+        <GameEnd value={score} show={showButton}/>
       </div>
     </div>
   );
