@@ -12,3 +12,20 @@
         margin-bottom: 1rem;
     }
 }
+
+.btn-correct {
+    background-color: lime;
+}
+
+.btn-wrong {
+    background-color: tomato;
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#nextBtn {
+    margin-top: 1rem;
+}
