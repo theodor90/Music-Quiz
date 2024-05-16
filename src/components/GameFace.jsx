@@ -95,9 +95,9 @@ const GameFace = () => {
       <ReactPlayer 
       className="react-player"
       url={q1.url} 
-      pip={false}
-      playing={true}
-      auto_play={true}
+      pip={false} //GitmMasterDavid (aka toalettmaster aka kommer5minsent aka toomanycupsofcoffee)
+      playing={true} //GitmMasterDavid (aka toalettmaster aka kommer5minsent aka toomanycupsofcoffee)
+      auto_play={true} //GitmMasterDavid (aka toalettmaster aka kommer5minsent aka toomanycupsofcoffee)
       />
       <img src={q1.profileImg} className="artist-img"></img>
       <div className="game-btns">
