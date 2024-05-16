@@ -11,8 +11,8 @@ function LandingPage() {
     return (
         <Container>
             <div className="landing-layout">
-                 <button className="btn button-top-left btn-secondary">Profile</button>
-                 <button className="btn button-buttom-left btn-secondary">Highscore</button>
+                 <button className="btn button-top-left btn-secondary" disabled>Profile</button>
+                 <button className="btn button-buttom-left btn-secondary" disabled>Highscore</button>
                   <Modal />
                   <Link to="/HowToPlay">
                   <button className="btn button-bottom-right btn-secondary">How to play</button> 
