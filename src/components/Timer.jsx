@@ -3,22 +3,18 @@ import { useState, useEffect } from 'react';
 
 const Timer = () => {
   const limit = 10;
-  const [seconds, setSeconds] = useState(limit);
-
-  const getTime = () => {
-    setSeconds(seconds - 1);
-  };
+  const [counter, setCounter] = useState(limit);
 
   useEffect(() => {
-    const timeLeft = setInterval(() => getTime(), 1000);
+      const timeLeft = counter > 0 && setInterval(() => setCounter(counter - 1), 1000);
 
-    return () => clearInterval(timeLeft);
-  }, []);
+      return () => clearInterval(timeLeft);
+  }, [counter]);
 
   return (
-      <>
-        {seconds}
-      </>
+      <div className="timer">
+        {counter <= 5 ? <p><span>Time left: </span><span style={{color: "red"}}>{counter}</span></p> : <p>Time left: {counter}</p>}
+      </div>
   );
 };
 

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Database from "../database.json";
+import Timer from "./Timer";
 import "./GameFace.css";
 
 const GameFace = () => {
@@ -35,7 +36,7 @@ const GameFace = () => {
 
   return (
     <div id="gamePage">
-      <p>Score: {score}</p>
+      <Timer />
       <h3>Whats song is this?</h3>
       <div className="game-btns">
         {q1.answers.map((answer) => (
