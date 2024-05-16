@@ -92,6 +92,10 @@ const GameFace = () => {
       <p>Score: {score}</p>
       <h3>What song is this?</h3>
       <img src={q1.profileImg} className="artist-img"></img>
+      {/* <iframe
+        allow="autoplay"
+        src={q1.url}
+      ></iframe> */}
       <div className="game-btns">
         {q1.answers.map((answer) => (
           <button
