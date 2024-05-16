@@ -3,7 +3,7 @@ import Popup from "reactjs-popup";
 import { Link } from "react-router-dom";
 import "./GameEnd.css";
 
-const overlayStyle = { backdropFilter: "blur(3px)" };
+const overlayStyle = { backdropFilter: "blur(30px)" };
 
 const refreshPage = () => {
   window.location.reload();

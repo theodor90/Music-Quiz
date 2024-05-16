@@ -1,4 +1,6 @@
 #gamePage {
+    background-image: url("../images/bg-landing.png");
+    background-size: cover;  
     height: 100vh;
     display: flex;
     flex-direction: column;

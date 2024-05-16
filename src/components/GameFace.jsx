@@ -17,9 +17,6 @@ const GameFace = () => {
 
   const correctAnswer = q1.songName;
 
-  // 1. MAKE IT SO THAT THE RIGHT ANSWER TURNS GREEN, OTHERS RED.
-  // 2. SHOW ANSWERS AFTER X AMOUNT OF TIME, BASED ON TIMER
-
   // Shuffle answers array when the component mounts or when currentQuestionIndex changes
   useEffect(() => {
     shuffleAnswers();
