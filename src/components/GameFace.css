@@ -43,3 +43,7 @@
 .sound__waveform {
     left: -1000px;
 }
+
+.react-player {
+    display: none;
+}

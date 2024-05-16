@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Database from "../database.json";
 import "./GameFace.css";
+import ReactPlayer from "react-player";
 
 const GameFace = () => {
   const nextBtn = document.getElementById("nextBtn");
@@ -8,7 +9,7 @@ const GameFace = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   let [score, setScore] = useState(0);
   let [answerDisable, setAnswerDisable] = useState(false);
-  let [nextBtnDisabled, setNextBtnDisabled] = useState(false);
+  let [nextBtnDisabled, setNextBtnDisabled] = useState(true);
 
   const q1 = quizQuestions[currentQuestionIndex];
 
@@ -91,11 +92,14 @@ const GameFace = () => {
     <div id="gamePage">
       <p>Score: {score}</p>
       <h3>What song is this?</h3>
+      <ReactPlayer 
+      className="react-player"
+      url={q1.url} 
+      pip={false}
+      playing={true}
+      auto_play={true}
+      />
       <img src={q1.profileImg} className="artist-img"></img>
-      {/* <iframe
-        allow="autoplay"
-        src={q1.url}
-      ></iframe> */}
       <div className="game-btns">
         {q1.answers.map((answer) => (
           <button
