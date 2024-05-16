@@ -14,7 +14,7 @@ const GameFace = () => {
 
   const correctAnswer = q1.songName;
 
-  // 1. MAKE IT SO THAT THE RIGHT ANSWER TURNS GREEN, OTHERS RED. Add a "Next question" button after an answer has been clicked.
+  // 1. MAKE IT SO THAT THE RIGHT ANSWER TURNS GREEN, OTHERS RED.
   // 2. SHOW ANSWERS AFTER X AMOUNT OF TIME, BASED ON TIMER
 
   // Shuffle answers array when the component mounts or when currentQuestionIndex changes
@@ -43,18 +43,39 @@ const GameFace = () => {
 
   // Checks if the selected answer is correct
   function checkAnswer(event) {
+    const buttons = document.getElementsByClassName("check");
+
+    // Adds colors to the answer buttons, green for correct and red for wrong
+    for (let i = 0; i < buttons.length; i++) {
+      if (buttons[i].id === correctAnswer) {
+        buttons[i].classList.add("btn-correct");
+      } else {
+        buttons[i].classList.add("btn-wrong");
+      }
+      buttons[i].disabled = true;
+    }
+
+    // Checks answer and adds to score if correct
     if (event.target.id === correctAnswer) {
       console.log("Right answer!");
       setScore((prevScore) => prevScore + 1);
     } else {
       console.log("Wrong answer!");
     }
+
     setNextBtnDisabled(false);
-    setAnswerDisable(true);
   }
 
   // Takes user to the next question
   function handleNext() {
+    const buttons = document.getElementsByClassName("check");
+
+    // Remove the green and red classes from all answer buttons
+    for (let i = 0; i < buttons.length; i++) {
+      buttons[i].classList.remove("btn-correct", "btn-wrong");
+      buttons[i].disabled = false; // Re-enable answer buttons
+    }
+
     const nextQuestionIndex = currentQuestionIndex + 1;
     if (nextQuestionIndex < quizQuestions.length) {
       setCurrentQuestionIndex(nextQuestionIndex);
@@ -69,14 +90,15 @@ const GameFace = () => {
   return (
     <div id="gamePage">
       <p>Score: {score}</p>
-      <h3>Whats song is this?</h3>
+      <h3>What song is this?</h3>
+      <img src={q1.profileImg} className="artist-img"></img>
       <div className="game-btns">
         {q1.answers.map((answer) => (
           <button
             key={answer}
             id={answer}
             onClick={checkAnswer}
-            className="btn btn-secondary"
+            className="btn btn-secondary check"
             disabled={answerDisable}
           >
             {answer}
