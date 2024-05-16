@@ -3,80 +3,120 @@
         "id": "f6",
         "songName": "True Colors",
         "artist": "Cyndi Lauper",
-        "profileImg": "",
+        "profileImg": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1202156250-copy.jpg?crop=1xw:1.0xh;center,top&resize=980:*",
         "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/339692325&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "answers": ["Answer 1", "Answer 2", "True Colors"]
+        "answers": [
+            "Answer 1",
+            "Answer 2",
+            "True Colors"
+        ]
     },
     {
         "id": "i9",
         "songName": "One Last Time",
         "artist": "Ariana Grande",
-        "profileImg": "",
+        "profileImg": "https://hips.hearstapps.com/hmg-prod/images/ariana_grande_photo_jon_kopaloff_getty_images_465687098.jpg?crop=1xw:0.8362452894826996xh;center,top&resize=980:*",
         "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/339585207&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-        "answers": ["Answer 1", "Answer 2", "One Last Time"]
+        "answers": [
+            "Answer 1",
+            "Answer 2",
+            "One Last Time"
+        ]
     },
     {
         "id": "h8",
         "songName": "Here Comes The Sun",
         "artist": "The Beatles",
-        "profileImg": "",
+        "profileImg": "https://cdn.britannica.com/18/136518-004-B02D5BA8/The-Beatles-Ringo-Starr-Paul-McCartney-George.jpg?s=1500x700&q=85",
         "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/339585205&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-        "answers": ["Answer 1", "Answer 2", "Here Comes The Sun"]
+        "answers": [
+            "Answer 1",
+            "Answer 2",
+            "Here Comes The Sun"
+        ]
     },
     {
         "id": "g7",
         "songName": "Stayin' Alive",
         "artist": "Bee Gees",
-        "profileImg": "",
+        "profileImg": "https://cdns-images.dzcdn.net/images/artist/9d4bc5799272dc15a08cfbaef534af7c/500x500.jpg",
         "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/339585199&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-        "answers": ["Answer 1", "Answer 2", "Stayin' Alive"]
+        "answers": [
+            "Answer 1",
+            "Answer 2",
+            "Stayin' Alive"
+        ]
     },
     {
         "id": "e5",
         "songName": "Somebody That I Used To Know",
         "artist": "Gotye",
-        "profileImg": "",
+        "profileImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Gotye%2C_2012.jpg/250px-Gotye%2C_2012.jpg",
         "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/339585190&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-        "answers": ["Answer 1", "Answer 2", "Somebody That I Used To Know"]
+        "answers": [
+            "Answer 1",
+            "Answer 2",
+            "Somebody That I Used To Know"
+        ]
     },
     {
         "id": "d4",
         "songName": "Don't Stop Believin'",
         "artist": "Journey",
-        "profileImg": "",
+        "profileImg": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2009/11/5/1257417850597/Group-Portrait-of--Journe-001.jpg?width=700&dpr=2&s=none",
         "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/339585188&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-        "answers": ["Answer 1", "Answer 2", "Don't Stop Believin'"]
+        "answers": [
+            "Answer 1",
+            "Answer 2",
+            "Don't Stop Believin'"
+        ]
     },
     {
         "id": "c3",
         "songName": "Poker Face",
         "artist": "Lady Gaga",
-        "profileImg": "",
+        "profileImg": "https://www.usmagazine.com/wp-content/uploads/2024/01/Lady-Gaga-Hints-Shes-Working-on-Her-Next-Album-With-Photos-From-Inside-the-Studio.jpg?w=1000&quality=86&strip=all",
         "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/339585181&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-        "answers": ["Answer 1", "Answer 2", "Poker Face"]
+        "answers": [
+            "Answer 1",
+            "Answer 2",
+            "Poker Face"
+        ]
     },
     {
         "id": "b2",
         "songName": "Material Girl",
         "artist": "Madonna",
-        "profileImg": "",
+        "profileImg": "https://static-cdn.sr.se/images/438/e9480f3d-f01d-43a6-8776-4bbc4eb2f094.jpg?preset=1024x576",
         "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/339585164&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-        "answers": ["Answer 1", "Answer 2", "Material Girl"]
+        "answers": [
+            "Answer 1",
+            "Answer 2",
+            "Material Girl"
+        ]
     },
     {
         "id": "a1",
         "songName": "Tiny Dancer",
         "artist": "Elton John",
-        "profileImg": "",
+        "profileImg": "https://hips.hearstapps.com/hmg-prod/images/elton-john-speaks-onstage-during-the-38th-annual-rock-roll-news-photo-1705384384.jpg?crop=0.850xw:0.568xh;0.150xw,0.0999xh&resize=980:*",
         "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/339585162&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-        "answers": ["Answer 1", "Answer 2", "Tiny Dancer"]
+        "answers": [
+            "Answer 1",
+            "Answer 2",
+            "Tiny Dancer"
+        ]
     },
     {
         "id": "j10",
         "songName": "Mamma Mia",
         "artist": "ABBA",
-        "profileImg": "",
+        "profileImg": "https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A68cb1de8-cbdd-11e8-8d0b-a6539b949662?source=ig",
         "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/339585147&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-        "answers": ["Answer 1", "Answer 2", "Mamma Mia"]
+        "answers": [
+            "Answer 1",
+            "Answer 2",
+            "Mamma Mia"
+        ]
     }
 ]

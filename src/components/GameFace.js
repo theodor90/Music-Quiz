@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Database from "../database.json";
 import "./GameFace.css";
+import "../styles/components.css"
 
 const GameFace = () => {
   const [quizQuestions, setQuizQuestions] = useState(Database);
@@ -37,6 +38,7 @@ const GameFace = () => {
     <div id="gamePage">
       <p>Score: {score}</p>
       <h3>Whats song is this?</h3>
+      <img src={q1.profileImg} className="artist-img"></img>
       <div className="game-btns">
         {q1.answers.map((answer) => (
         <button key={answer} id={answer} onClick={checkAnswer} className="btn btn-secondary">
