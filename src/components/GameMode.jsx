@@ -3,6 +3,8 @@ import Popup from "reactjs-popup";
 import { Link } from "react-router-dom";
 import "./GameMode.css";
 
+const overlayStyle = { backdropFilter: "blur(3px)" };
+
 function GameMode() {
   return (
     <Popup
@@ -11,6 +13,7 @@ function GameMode() {
       }
       modal
       nested
+      {...{ overlayStyle }}
     >
       {(close) => (
         <div className="gamemode-container">
@@ -19,9 +22,11 @@ function GameMode() {
           </button>
           <div className="gamemode-content">
             <Link to="/gamepage">
-            <button className="btn btn-secondary">Single Player</button>
+              <button className="btn btn-secondary">Single Player</button>
             </Link>
-            <button className="btn btn-secondary" disabled>Multiplayer</button>
+            <button className="btn btn-secondary" disabled>
+              Multiplayer
+            </button>
           </div>
         </div>
       )}

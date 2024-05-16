@@ -3,11 +3,13 @@ import Popup from "reactjs-popup";
 import { Link } from "react-router-dom";
 import "./GameEnd.css";
 
-function GameEnd(props) {
-  const refreshPage = () => {
-    window.location.reload();
-  };
+const overlayStyle = { backdropFilter: "blur(3px)" };
 
+const refreshPage = () => {
+  window.location.reload();
+};
+
+function GameEnd(props) {
   return (
     <Popup
       trigger={
@@ -20,6 +22,7 @@ function GameEnd(props) {
       }
       modal
       nested
+      {...{ overlayStyle }}
     >
       {(close) => (
         <div className="gameend-container">
