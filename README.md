@@ -6,7 +6,7 @@ The Music Quiz is an engaging game designed to test your knowledge of music genr
  
 Getting Started
 To get started with the Music Quiz project, follow these steps:
-1. Clone the repository to your local machine: `git clone [repository_url]`.
+1. Clone the repository to your local machine: `git clone https://github.com/theodor90/Music-Quiz.git`.
 2. Install the required dependencies: `npm install`.
 3. Follow the setup instructions in the README file to initialize the project.
 4. Run the application using the provided command to start the quiz.
