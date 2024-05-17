@@ -35,7 +35,7 @@ By contributing to this project, you agree that your contributions will be licen
  
 ## Contact
 For any questions or suggestions regarding the Music Quiz project, feel free to contact the project contributors:
-- [Theodor](https://github.com/theodor90)
+- [Theodor](https://github.com/theodor90){:target="_blank" rel="noopener"}
 - [Mattias](https://github.com/mattiasvlex)
 - [David](https://github.com/DavidR12344)
 - [Alan](https://github.com/al-swe)
