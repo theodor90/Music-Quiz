@@ -27,6 +27,11 @@ Please adhere to the coding style guidelines and ensure thorough testing of your
 Distributed under the MIT License. See `LICENSE` for more information.
 By contributing to this project, you agree that your contributions will be licensed under the same MIT License.
  -->
+
+ ## Technologies used
+ 1. HTML
+ 2. CSS
+ 3. React
  
 ## Contact
 For any questions or suggestions regarding the Music Quiz project, feel free to contact the project maintainer at [insert_email_here] or join our discussion on [insert_link_to_communication_platform].
