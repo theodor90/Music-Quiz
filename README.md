@@ -34,7 +34,12 @@ By contributing to this project, you agree that your contributions will be licen
  3. React
  
 ## Contact
-For any questions or suggestions regarding the Music Quiz project, feel free to contact the project maintainer at [insert_email_here] or join our discussion on [insert_link_to_communication_platform].
+For any questions or suggestions regarding the Music Quiz project, feel free to contact the project contributors:
+[Theo](https://github.com/theodor90)
+https://github.com/mattiasvlex
+https://github.com/DavidR12344
+https://github.com/al-swe
+https://github.com/SaadSabah
  
 ## Acknowledgements
 [Insert any acknowledgements or credits here]
