@@ -1,10 +1,10 @@
-#Music Quiz Project
+# Music Quiz Project
  
-##Overview
+## Overview
 The Music Quiz is an engaging game designed to test your knowledge of music genres, artists, and songs. It's perfect for music enthusiasts and those looking to learn more about different musical styles.
  
  
-##Getting Started
+## Getting Started
 To get started with the Music Quiz project, follow these steps:
 1. Clone the repository to your local machine: `git clone https://github.com/theodor90/Music-Quiz.git`.
 2. Install the required dependencies: `npm install`.
@@ -28,8 +28,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 By contributing to this project, you agree that your contributions will be licensed under the same MIT License.
  -->
  
-##Contact
+## Contact
 For any questions or suggestions regarding the Music Quiz project, feel free to contact the project maintainer at [insert_email_here] or join our discussion on [insert_link_to_communication_platform].
  
-##Acknowledgements
+## Acknowledgements
 [Insert any acknowledgements or credits here]
