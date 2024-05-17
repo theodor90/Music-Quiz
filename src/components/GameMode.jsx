@@ -1,9 +1,11 @@
 import React from "react";
 import Popup from "reactjs-popup";
-import "./css/Modal.css";
 import { Link } from "react-router-dom";
+import "./css/GameMode.css";
 
-function Modal() {
+const overlayStyle = { backdropFilter: "blur(3px)" };
+
+function GameMode() {
   return (
     <Popup
       trigger={
@@ -11,17 +13,20 @@ function Modal() {
       }
       modal
       nested
+      {...{ overlayStyle }}
     >
       {(close) => (
-        <div className="modal-container">
+        <div className="gamemode-container">
           <button className="btn-close" onClick={close}>
             &times;
           </button>
-          <div className="modal-content">
+          <div className="gamemode-content">
             <Link to="/gamepage">
               <button className="btn btn-secondary">Single Player</button>
             </Link>
-            <button className="btn btn-secondary" disabled>Multiplayer</button>
+            <button className="btn btn-secondary" disabled>
+              Multiplayer
+            </button>
           </div>
         </div>
       )}
@@ -29,4 +34,4 @@ function Modal() {
   );
 }
 
-export default Modal;
+export default GameMode;

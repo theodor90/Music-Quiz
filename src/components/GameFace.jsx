@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Database from "../database.json";
 import "./GameFace.css";
 import ReactPlayer from "react-player";
-import GameEnd from "./GameEnd";
+import EndGame from "./EndGame";
 
 const GameFace = () => {
   const nextBtn = document.getElementById("nextBtn");
@@ -120,7 +120,7 @@ const GameFace = () => {
         >
           Next Question
         </button>
-        <GameEnd value={score} show={showButton}/>
+        <EndGame value={score} show={showButton}/>
       </div>
     </div>
   );

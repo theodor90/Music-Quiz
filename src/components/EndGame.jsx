@@ -1,15 +1,15 @@
 import React from "react";
 import Popup from "reactjs-popup";
 import { Link } from "react-router-dom";
-import "./GameEnd.css";
+import "./EndGame.css";
 
-const overlayStyle = { backdropFilter: "blur(30px)" };
+const overlayStyle = { backdropFilter: "blur(3px)" };
 
 const refreshPage = () => {
   window.location.reload();
 };
 
-function GameEnd(props) {
+function EndGame(props) {
   return (
     <Popup
       trigger={
@@ -29,8 +29,8 @@ function GameEnd(props) {
           <button className="btn-close" onClick={close}>
             &times;
           </button>
+          <h3>Score: {props.value}</h3>
           <div className="gameend-content">
-            <h3>Score: {props.value}</h3>
             <Link to="/gamepage">
               <button
                 className="btn btn-secondary"
@@ -42,6 +42,16 @@ function GameEnd(props) {
                 Play Again
               </button>
             </Link>
+            <Link to="/">
+              <button
+                className="btn btn-secondary"
+                onClick={() => {
+                  close();
+                }}
+              >
+                Home
+              </button>
+            </Link>
           </div>
         </div>
       )}
@@ -49,4 +59,4 @@ function GameEnd(props) {
   );
 }
 
-export default GameEnd;
+export default EndGame;

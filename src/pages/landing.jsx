@@ -1,7 +1,7 @@
 import { Container } from 'react-bootstrap';
 import { motion } from 'framer-motion'
 import Guitar from '../images/electric-guitar.png'
-import Modal from '../components/Modal';
+import GameMode from '../components/GameMode';
 import '../styles/landing.css'
 import '../styles/styles.css';
 import { Link } from 'react-router-dom';
@@ -13,7 +13,7 @@ function LandingPage() {
             <div className="landing-layout">
                  <button className="btn button-top-left btn-secondary" disabled>Profile</button>
                  <button className="btn button-buttom-left btn-secondary" disabled>Highscore</button>
-                  <Modal />
+                  <GameMode />
                   <Link to="/HowToPlay">
                   <button className="btn button-bottom-right btn-secondary">How to play</button> 
                   </Link>
