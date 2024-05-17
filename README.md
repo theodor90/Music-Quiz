@@ -1,11 +1,8 @@
-# Music Quiz Project
- 
-## Overview
-The Music Quiz is an engaging game designed to test your knowledge of music genres, artists, and songs. It's perfect for music enthusiasts and those looking to learn more about different musical styles.
- 
+# Music Quiz 
+The Music Quiz is an engaging game designed to test your knowledge of songs. This project was part of a course on software development planning. 
  
 ## Getting Started
-To get started with the Music Quiz project, follow these steps:
+To get started with the Music Quiz, follow these steps:
 1. Clone the repository to your local machine: `git clone https://github.com/theodor90/Music-Quiz.git`.
 2. Install the required dependencies: `npm install`.
 3. Run the application using: `npm start`.
